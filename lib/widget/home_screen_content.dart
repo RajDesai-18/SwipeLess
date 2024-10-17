@@ -110,7 +110,7 @@ class HomeScreenContent extends StatefulWidget {
 }
 
 class _HomeScreenContentState extends State<HomeScreenContent> {
-  static const platform = MethodChannel('com.example.app_usage_tracker/usage');
+  static const platform = MethodChannel('com.example.swipe_less/usage');
   String gmailUsageTime = '0.00';
 
   Future<void> getAppUsageTime(String appName) async {
